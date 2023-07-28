@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+.characters{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-test {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container{
+    width: 100%;
+    height: 65%;
+}
+
+.imagen {
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.text-container{
+    padding: 5%;
+}
+
